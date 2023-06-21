@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: parsa;
+            src: url(./font/Graphik\ Arabic\ Bold.otf);
+        }
+        
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+
+            
+        }
+        body{background: url(./img/1.jpg) no-repeat center center ;
+        background-size: cover;
+    width: 100%;
+    height: 100vh;
+    }
+        .box1{
+            width:100%;
+            height:130px;
+            background-color:rgb(201, 14, 14);
+            border-radius: 30px;
+        
+        }
+        li{
+            float:left;
+            width:25%;
+            height: 130px;
+            line-height: 130px;
+            text-align:center;
+            list-style: none;
+            font-size:26px;
+            
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-family: parsa;
+        }
+        .box1>li>a:hover{
+            color:rgb(255, 196, 0);
+            font-size: 30px;
+            
+        }
+        .box2{
+            width: 80%;
+            height:400px;
+            /* background-color: rgba(255, 255, 255, 0.692); */
+            background: url(./img/menu2.jpg);
+            margin-left: 10%;
+            border-radius: 20px;
+            margin-top: 5%;
+    }
+    .boy{
+        width: 80%;
+        height: 80%;
+        margin-left: 10%;
+        background-color: rgb(255, 35, 35);
+        border-radius: 20px;
+    }
+    .lst{
+        width: 100%;
+        height: 50px;
+        background-color: rgba(121, 5, 5, 0.781);
+        border-top-left-radius: 20px;
+        border-top-right-radius:20px ;
+    }
+    .boy>ul>li{
+        float: left;
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        list-style: none;
+        text-align: center;
+        line-height: 50px;
+        width:33.3%;
+} 
+.pitza:hover~.box2{background: url(./img/pitza.jpg) no-repeat center center;
+background-size: cover;transition: 5s;}
+.burger:hover~.box2{background: url(./img/burger1.jpg) no-repeat center center;
+background-size: cover;transition: 5s;}
+.sib:hover~.box2{background: url(./img/sibzamini.jpg) no-repeat center center;
+background-size: cover;transition: 5s;}
+.te:hover{font-size: 30px;
+color: gold;}
+.nav{color: white;font-size: 32px;text-align: center;font-family: parsa;height: 70px;
+line-height: 70px;}
+.nav:hover{color: gold;}
+.pitza:hover.boy{background-color: black;}
+
+   
+
+    </style>
+</head>
+<body>
+    <nav class="nav">با ما سالم زندگی کنید </nav>
+    <ul class="box1">
+        <li><a href="">خانه</a></li>
+        <li><a href="">اخذ نمایندگی</a></li>
+        <li><a href="">سفارش اینترنتی</a></li>
+        <li><a href="">استخدام</a></li>
+
+    </ul>
+ 
+        <br>
+        <br>
+        <br>
+        <div class="boy">
+            <ul class="lst">
+                <li class="te pitza">Pitza</li>
+                <li class="te burger">Burger</li>
+                <li class="te sib">Sib</li>
+                <br>
+                <br>
+                <div class="box2"></div>
+            </ul>
+         
+        </div>
+    </div>
+</body>
+</html>
